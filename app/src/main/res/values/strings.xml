@@ -1,0 +1,114 @@
+<resources>
+    <!-- App and activity names -->
+    <string name="app_name">My Book Database</string>
+    <string name="title_activity_add_book">Add a new book</string>
+    <string name="title_activity_help">Help</string>
+
+    <!-- Book category names -->
+    <string name="category_action">Action and adventure</string>
+
+    <!-- Personal evaluation strings -->
+    <string-array name="personal_evals">
+        <item>Very bad</item>
+        <item>Bad</item>
+        <item>Regular</item>
+        <item>Good</item>
+        <item>Very good</item>
+        <item>Unknown rating</item>
+    </string-array>
+
+    <!-- App menu strings -->
+    <string name="menu_about">About</string>
+    <string name="menu_modify">Modify</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_by_title">Order by Title</string>
+    <string name="menu_by_category">Order by Category</string>
+    <string name="menu_help">Help</string>
+
+    <!-- Dialog strings -->
+    <string name="dialog_empty_fields">Do you want to empty all fields?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">Cancel</string>
+
+    <!-- Snackbar strings -->
+    <string name="snackbar_delete_warning">has been deleted.</string>
+    <string name="snackbar_delete_action">Undo</string>
+    <string name="snackbar_delete_reverted">has been restored.</string>
+
+    <!-- Main activity strings -->
+    <string name="ordering_category_toast">Ordering books by category</string>
+    <string name="ordering_title_toast">Ordering books by title</string>
+
+    <!-- Add book activity strings -->
+    <string name="edit_book_title">Title: </string>
+    <string name="edit_book_title_hint">Book title</string>
+    <string name="edit_book_author">Author:</string>
+    <string name="edit_book_author_hint">Book author</string>
+    <string name="edit_book_optional_hint">You can leave the fields below empty if unknown:</string>
+    <string name="edit_book_category">Category: </string>
+    <string name="edit_book_category_hint">Default:</string>
+    <string name="edit_book_publisher">Publisher: </string>
+    <string name="edit_book_publisher_hint">Book publisher</string>
+    <string name="edit_book_year">Year:</string>
+    <string name="edit_book_year_hint">Year of publication</string>
+    <string name="edit_book_eval">Personal evaluation:</string>
+    <string name="error_no_title">Can\'t save a book with no title</string>
+    <string name="error_no_author">Can\'t save a book with no author</string>
+
+    <!-- About strings -->
+    <string name="about_text">My Book Database is an application for managing a list of books\'
+        information.\n\nThis app has been developed by Guillermo Serrahima.</string>
+    <string name="about_button">Ok</string>
+
+    <!-- Default and other strings -->
+    <string name="feature_not_implemented">This feature has not been implemented yet</string>
+    <string name="unknown_title_author">Unknown Title - Unknown Author</string>
+    <string name="unknown_category">Unknown Category</string>
+    <string name="category_magic_realism">Magic realism</string>
+    <string name="category_modernist">Modernist novel</string>
+    <string name="category_default">Other</string>
+    <string name="publisher_default">Unknown publisher</string>
+    <string name="author_default">Unknown author</string>
+    <string name="unknown_evaluation">Unknown evaluation</string>
+    <string name="unknown_publisher_year">Unknown publisher, unknown year</string>
+
+    <!-- Help strings -->
+    <string name="help_main_title">Main screen</string>
+    <string name="help_main_add_book_title">Add new books to the list</string>
+    <string name="help_main_add_book_text">You can add new books by clicking the yellow \"+\" button
+        at the bottom right corner of the screen, or using the corresponding option in the toolbar menu
+        at the top right corner of the screen.
+    </string>
+    <string name="help_main_modify_delete_title">Modify or delete a book</string>
+    <string name="help_main_modify_delete_text">In order to modify or delete a book, click on the
+        book\'s menu represented by the icon with 3 vertical dots.\n\n
+        When deleting a book, a notification appears at the bottom of the screen for a few seconds,
+        allowing to undo the action.
+    </string>
+    <string name="help_main_change_order_title">Change the ordering of books</string>
+    <string name="help_main_change_order_text">The toolbar menu situated at the top right corner of
+        the screen allows to order the books by title or group them by categories.
+    </string>
+    <string name="help_add_book_title">@string/title_activity_add_book</string>
+    <string name="help_add_book_empty_title">Empty all fields</string>
+    <string name="help_add_book_empty_text">The eraser icon near the top right corner of the screen
+        allows to remove the data inputed in all fields, after asking confirmation.
+    </string>
+    <string name="help_add_book_save_title">Introducing a new book</string>
+    <string name="help_add_book_save_text">To add a new book to the list, the present information fields
+        must be filled.\n\n
+        The only mandatory fields are the title and the author of the book.\n\n
+        If the other fields are left empty, the book will be saved with the following default values:\n\n
+        - Category: \"%1$s\"\n
+        - Publisher: \"%2$s\"\n
+        - Year: \"%3$s\"\n
+        - Personal evaluation: \"%4$s\" (%5$s stars).
+    </string>
+    <string name="help_add_book_confirm_title">Confirming the introduction of a book</string>
+    <string name="help_add_book_confirm_text">In order to save the input information as a new book,
+        click on the green \"OK\" button at the bottom right corner of the screen, or the corresponding
+        option in the toolbar menu at the top right corner of the screen.
+    </string>
+</resources>

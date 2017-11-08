@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_evals">
+        <item>Molt dolent</item>
+        <item>Dolent</item>
+        <item>Regular</item>
+        <item>Bo</item>
+        <item>Molt bo</item>
+        <item>Valoració desconeguda</item>
+    </string-array>
+
+    <string name="app_name">My Book Database</string>
+    <string name="author_default">Autor desconegut</string>
+    <string name="category_default">Altres</string>
+    <string name="category_action">Acció i aventures</string>
+    <string name="category_magic_realism">Realisme màgic</string>
+    <string name="category_modernist">Novel·la modernista</string>
+    <string name="dialog_empty_fields">Desitges buidar tots els camps?</string>
+    <string name="dialog_no">Cancel·la</string>
+    <string name="dialog_yes">Accepta</string>
+    <string name="edit_book_author">Autor:</string>
+    <string name="edit_book_author_hint">Autor del llibre</string>
+    <string name="edit_book_category">Categoria:</string>
+    <string name="edit_book_category_hint">Predeterminat:</string>
+    <string name="edit_book_eval">Valoració personal:</string>
+    <string name="edit_book_optional_hint">Es poden deixar buits els següents espais si es desconeixen:</string>
+    <string name="edit_book_publisher">Editor:</string>
+    <string name="edit_book_publisher_hint">Editor del llibre</string>
+    <string name="edit_book_title">Títol:</string>
+    <string name="edit_book_title_hint">Títol del llibre</string>
+    <string name="edit_book_year">Any:</string>
+    <string name="edit_book_year_hint">Any de la publicació</string>
+    <string name="error_no_author">No es pot guardar un llibre sense autor</string>
+    <string name="error_no_title">No es pot guardar un llibre sense títol</string>
+    <string name="feature_not_implemented">Aquesta opció encara no s\'ha implementat</string>
+    <string name="menu_about">Sobre aquesta app</string>
+    <string name="menu_by_category">Ordenar per categoria</string>
+    <string name="menu_by_title">Ordenar per títol</string>
+    <string name="menu_clear">Buida</string>
+    <string name="menu_delete">Elimina</string>
+    <string name="menu_modify">Modifica</string>
+    <string name="menu_save">Guarda</string>
+    <string name="ordering_category_toast">Ordenant els llibres per categories</string>
+    <string name="ordering_title_toast">Ordenant els llibres per títol</string>
+    <string name="publisher_default">Editor desconegut</string>
+    <string name="snackbar_delete_action">Desfer</string>
+    <string name="snackbar_delete_reverted">ha sigut restablert.</string>
+    <string name="snackbar_delete_warning">ha sigut eliminat.</string>
+    <string name="title_activity_add_book">Afegir un llibre</string>
+    <string name="unknown_category">Categoria desconeguda</string>
+    <string name="unknown_title_author">Títol desconegut - Autor desconegut</string>
+    <string name="about_button">Ok</string>
+    <string name="about_text">My Book Database és una aplicació per organitzar i mantenir una llista d\'informació sobre llibres.\n\nDesenvolupada per Guillermo Serrahima.</string>
+    <string name="unknown_evaluation">Valoració desconeguda</string>
+    <string name="unknown_publisher_year">Editor desconegut, any desconegut</string>
+    <string name="title_activity_help">Ajuda</string>
+    <string name="menu_help">Ajuda</string>
+
+    <!-- Help strings -->
+    <string name="help_main_title">Pantalla principal</string>
+    <string name="help_main_add_book_title">Afegeix un llibre</string>
+    <string name="help_main_add_book_text">Es pot afegir un llibre nou amb el botó groc \"+\" a la
+        cantonada inferior dreta de la pantalla, o bé utilitzant l\'opció corresponent en el menú
+        situat a la cantonada superior dreta de la pantalla.
+    </string>
+    <string name="help_main_modify_delete_title">Modifica o elimina un llibre</string>
+    <string name="help_main_modify_delete_text">Per modificar o eliminar un llibre, cal clicar en el
+        menú del llibre representat per la icona de 3 punts verticals.\n\n
+        Quan s\'elimina un llibre, una notificació apareix a la part inferior de la pantalla durant
+        uns segons, permetent desfer la acció.
+    </string>
+    <string name="help_main_change_order_title">Canviar l\'ordre dels llibres</string>
+    <string name="help_main_change_order_text">El menú situat a la part superior dreta de la pantalla
+        permet ordenar els llibres per títol alfabèticament o agrupar-los per categories.
+    </string>
+    <string name="help_add_book_title">@string/title_activity_add_book</string>
+    <string name="help_add_book_empty_title">Buidar tots els camps</string>
+    <string name="help_add_book_empty_text">La icona de la goma d\'esborrar a prop de la cantonada
+        superior dreta de la pantalla permet buidar tots els camps d\'informació. Es demanarà
+        confirmació.
+    </string>
+    <string name="help_add_book_save_title">Introdueix un nou llibre</string>
+    <string name="help_add_book_save_text">Per afegir un nou llibre a la llista, cal omplir tots els
+        camps d\'informació presents.\n\n
+        Els únics camps obligatoris són el títol i l\'autor del llibre.\n\n
+        Si la resta de camps es deixan buits, el llibre es guardarà amb els següents valors
+        predeterminats:\n\n
+        - Categoria: \"%1$s\"\n
+        - Editor: \"%2$s\"\n
+        - Any: \"%3$s\"\n
+        - Valoració personal: \"%4$s\" (%5$s estrelles).
+    </string>
+    <string name="help_add_book_confirm_title">Confirma la introducció d\'un llibre</string>
+    <string name="help_add_book_confirm_text">Per poder guardar la informació introduïda com un nou
+        llibre, cal clicar el botó verd a la cantonada inferior dreta de la pantalla, o la corresponent
+        opció al menú situat en la cantonada superior dreta de la pantalla.
+    </string>
+</resources>

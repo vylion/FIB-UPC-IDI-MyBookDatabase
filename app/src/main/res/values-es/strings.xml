@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_evals">
+        <item>Muy malo</item>
+        <item>Malo</item>
+        <item>Regular</item>
+        <item>Bueno</item>
+        <item>Muy bueno</item>
+        <item>Valoración desconocida</item>
+    </string-array>
+
+    <string name="app_name">My Book Database</string>
+    <string name="category_action">Acción y aventuras</string>
+    <string name="category_magic_realism">Realismo mágico</string>
+    <string name="category_modernist">Modernista</string>
+    <string name="dialog_empty_fields">¿Deseas vaciar todos los campos?</string>
+    <string name="dialog_no">Cancelar</string>
+    <string name="dialog_yes">Aceptar</string>
+    <string name="edit_book_author">Autor:</string>
+    <string name="edit_book_author_hint">Autor del libro</string>
+    <string name="edit_book_category">Categoría:</string>
+    <string name="edit_book_category_hint">Predeterminado:</string>
+    <string name="edit_book_eval">Valoración personal:</string>
+    <string name="edit_book_optional_hint">Se pueden dejar los siguientes campos vacíos si se desconocen:</string>
+    <string name="edit_book_publisher">Editor:</string>
+    <string name="edit_book_publisher_hint">Editor del libro</string>
+    <string name="edit_book_title">Título:</string>
+    <string name="edit_book_title_hint">Título del libro</string>
+    <string name="edit_book_year">Año:</string>
+    <string name="edit_book_year_hint">Año de publicación</string>
+    <string name="error_no_author">No se puede guardar un libro sin autor</string>
+    <string name="error_no_title">No se puede guardar un libro sin título</string>
+    <string name="feature_not_implemented">Aún no se ha implementado esta opción</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_by_category">Ordenar por categoría</string>
+    <string name="menu_by_title">Ordenar por título</string>
+    <string name="menu_clear">Vaciar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_modify">Modificar</string>
+    <string name="menu_save">Guardar</string>
+    <string name="snackbar_delete_action">Deshacer</string>
+    <string name="snackbar_delete_reverted">ha sido restablecido.</string>
+    <string name="snackbar_delete_warning">ha sido eliminado.</string>
+    <string name="title_activity_add_book">Añadir un libro</string>
+    <string name="unknown_category">Categoría desconocida</string>
+    <string name="unknown_title_author">Título desconocido - Autor desconocido</string>
+    <string name="category_default">Otros</string>
+    <string name="ordering_category_toast">Ordenando los libros por categorías</string>
+    <string name="ordering_title_toast">Ordenando los libros por título</string>
+    <string name="publisher_default">Editor desconocido</string>
+    <string name="author_default">Autor desconocido</string>
+    <string name="about_button">Ok</string>
+    <string name="about_text">My Book Database es una aplicación para organizar y mantener una lista de información sobre libros.\n\nDesarrollada por Guillermo Serrahima.</string>
+    <string name="unknown_evaluation">Valoración desconocida</string>
+    <string name="unknown_publisher_year">Editor desconegut, any desconegut</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="menu_help">Ayuda</string>
+
+    <!-- Help strings -->
+    <string name="help_main_title">Pantalla principal</string>
+    <string name="help_main_add_book_title">Añadir un libro a la lista</string>
+    <string name="help_main_add_book_text">Puedes añadir nuevos libros con el botón amarillo del signo
+        \"+\" en la esquina inferior derecha, o bien usando la opción correspondiente en el menú
+        situado en la esquina superior derecha de la pantalla.
+    </string>
+    <string name="help_main_modify_delete_title">Modificar o eliminar un libro</string>
+    <string name="help_main_modify_delete_text">Para modificar o eliminar un libro, utiliza el menú
+        a la derecha del libro representado por el icono con 3 puntos en vertical.\n\n
+        Al eliminar un libro aparece una notificación en la parte inferior de la pantalla durante
+        unos segundos que te permite deshacer la acción.
+    </string>
+    <string name="help_main_change_order_title">Cambiar el orden de los libros</string>
+    <string name="help_main_change_order_text">El menú situado en la esquina superior derecha de la
+        pantalla, se ofrece la posibilidad de ordenar los libros por título o agruparlos por
+        categorías.
+    </string>
+    <string name="help_add_book_title">@string/title_activity_add_book</string>
+    <string name="help_add_book_empty_title">Vaciar todos los campos</string>
+    <string name="help_add_book_empty_text">El icono de la goma de borrar en la esquina superior
+        derecha de la pantalla permite eliminar todos los datos introducidos. Se pedirá confirmación.
+    </string>
+    <string name="help_add_book_save_title">Introducir un libro nuevo</string>
+    <string name="help_add_book_save_text">Para añadir un libro hay varios campos de información a
+        rellenar.\n\n
+        Los únicos campos obligatorios son el título y el autor del libro.\n\n
+        Si el resto de campos se dejan vacíos, el libro se guardará con los valores predeterminados
+        siguientes:\n\n
+        - Categoría: \"%1$s\"\n
+        - Editor: \"%2$s\"\n
+        - Año: \"%3$s\"\n
+        - Valoración personal: \"%4$s\" (%5$s estrellas).
+    </string>
+    <string name="help_add_book_confirm_title">Confirmar la introducción de un libro</string>
+    <string name="help_add_book_confirm_text">Se puede guardar la información introducida como un libro
+        nuevo presionando el botón verde de \"visto bueno\" en la esquina inferior derecha de la pantalla,
+        o bien utilizando la opción correspondiente en el menú situado en la esquina superior derecha
+        de la pantalla.
+    </string>
+</resources>

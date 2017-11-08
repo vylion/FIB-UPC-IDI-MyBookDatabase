@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyAppBarTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@color/colorTextIcons</item>
+        <item name="android:textColorSecondary">@color/colorTextIcons</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="actionOverflowMenuStyle">@style/MyPopupMenu</item>
+    </style>
+
+    <style name="AppTheme.Base.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Base.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="MyPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-16dp</item>
+    </style>
+
+    <style name="primaryText">
+        <item name="android:textColor">#000</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+
+    <style name="secondaryText">
+        <item name="android:textColor">#000</item>
+        <item name="android:alpha">0.54</item>
+    </style>
+
+</resources>
